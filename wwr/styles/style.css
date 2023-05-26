@@ -1,15 +1,18 @@
-:lang(en){
-    /*styles for English text*/
+@import url('https://fonts.google.com/specimen/Grechen+Fuemen?query=grechen');
+@import url('https://fonts.google.com/specimen/K2D?query=k2d');
+
+header{
+    font-family:"Grechen Fuemen", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+main section img{
+    box-sizing: border-box;
 }
 div {
     max-width: 1600px;
-     margin: 0 auto;
+    margin: 0 auto;
+    
     }
-nav a {
-    color:black; 
-    text-align: center;
-    text-decoration: none;
-}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
@@ -25,12 +28,22 @@ main section{
 }
 body{
     background-color:#E3E3E2;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    font-family: "K2D", Georgia, 'Times New Roman', Times, serif; 
 }
 header{
     background-color:#D7E4CD;
 }
 nav{
     background-color: #F97F0E;
+}
+nav a {
+    color:black; 
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color:#572600;
@@ -41,6 +54,11 @@ nav a:hover {
     background-color:#F97F0E;
     color:black;
     text-decoration: none;
+    font-family:"Grechen Fuemen", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#A3B693;
@@ -49,14 +67,28 @@ nav a:hover {
 }
 .msg {
     background-color:#D7E4CD;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 50px;
 }
 footer{
     background-color:#F97F0E;
-    color:black
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:#1693a4;
     text-align: center;
+    font-family:"Grechen Fuemen", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+}
+.home-grid h2 {
+    font-family:"Grechen Fuemen", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h4{
     color:#1693a4;
@@ -67,6 +99,8 @@ h4{
 }
 .msg p{
     color:black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a:hover{
     background-color:#572600;
@@ -82,6 +116,7 @@ footer a{
 }
 .icon{
     width: 80px;
+    padding: 10px;
 }
 #hero-img{
     width:100%;
@@ -89,4 +124,22 @@ footer a{
 footer p{
     font-size: 1.2em;
 }
-/*Idk why its not loading*/
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #A3B693;
+}
+#hero-box{
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+.mountains{
+    margin: 60px;
+}

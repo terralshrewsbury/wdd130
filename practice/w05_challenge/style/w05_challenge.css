@@ -1,0 +1,22 @@
+body {
+    padding: auto;
+    margin: 0;
+}
+.title {
+width: 100%;
+text-align: center;
+background-color: gray;
+border: gray;
+width: 80%;
+text-align: center;
+margin: auto
+}
+.circle-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 20px solid #404040;
+    display: inline-block;
+    margin: 50px 50px;
+    
+}
