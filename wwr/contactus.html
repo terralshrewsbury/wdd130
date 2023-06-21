@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/turrtlerafters.png" alt="Turrtle Rafting logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rivers.html">Rivers</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <h1 class = 'contactus-title'>Contact Us</h1>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <lable for="name">Name:</lable>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <lable for="mail">Email:</lable>
+                        <input type="email" id="mail" name="user_email"/>
+                    </li>
+                    <li>
+                        <lable for="amount">How many will be in your party? </lable>
+                        <input type="text" id="amount" name="user_amount"/>
+                    </li>
+                    <li>
+                        <lable for="river">What river? </lable>
+                        <input type="text" id="river" name="user_river"/>
+                    </li>
+                    <li>
+                        <lable for="dates">What dates are you interested in? </lable>
+                        <input type="text" id="dates" name="user_dates"/>
+                    </li>
+                    <li>
+                        <lable for="msg">Message</lable>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+            
+        </main>
+        <footer>
+            <p>Turrtle Rafting &copy; 2023 - Terral Shrewsbury</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a> </p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>   
+    </div> 
+</body>
+</html>
