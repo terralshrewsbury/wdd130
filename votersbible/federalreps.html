@@ -9,21 +9,32 @@
 <body>
     <div id="main">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/voterbiblelogo.png" alt="Voters Bible Logo">
-            </a>
+            
             <nav>
-                <a href="index.html">Home</a>
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/voterbiblelogo.png" alt="Voters Bible Logo">
+                </a>
+                <a class="home" href="index.html">Home</a>
                 <!-- <a href="#">Federal Representatives</a> -->
-                <a href="statereps.html">State Reprs.</a>
+                <div id="title">
+                    <h1>Utah Federal Representatives</h1>
+                </div>
+                <a class="statereps" href="statereps.html">State Reprsentatives</a>
             </nav>
         </header>
-        <div id="title">
-            <h1>Utah Federal Representatives</h1>
+        <div class="dark" >
+            <button onclick="myFunction()">Toggle dark mode</button>
+
+            <script>
+            function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            }
+            </script>
         </div>
+        <h2 class="title" >Federal House of Representatives</h2>
+        <h3 class="sub-title">Utah’s Current Federal Representatives and Candidates Running for Special Election:</h3>
         <div id="federalhouse">
-            <h2>Federal House of Representatives</h2>
-            <h3>Utah’s Current Federal Representatives and Candidates Running for Special Election:</h3>
             <div id="blakemoore-box"> 
                 <h4>Blake Moore (R) (1st district)</h4>
                 <p>Committee and Subcommittee assignments:</p>
@@ -57,7 +68,7 @@
                 
                 <div id="special-election">    
                     <h4>This seat is being Vacated</h4>
-                    <p>there is a special election Primary Election Sept. 5 2023, followed by General Election Nov. 21, 2023 Candidate filling deadline Jul. 5, 2023.
+                    <p>There is a special election Primary Election Sept. 5 2023, followed by General Election Nov. 21, 2023 Candidate filling deadline Jul. 5, 2023.
                     Candidates who have shown interest in filling or already filled as of June 9th, 2023 are: </p>
                     <ul>
                         <li>Bruce Hough (R)</li>
@@ -97,7 +108,7 @@
                     <li>Water Resources and Environment</li>
                 </ul>
                 <p>If you wish to contact this representative:</p>
-                <a href=" https://owens.house.gov/">Website</a>
+                <a href=" https://owens.house.gov/">Burgess Owens's Website</a>
                 <p>Washington, DC (202) 225-3011 </p>
                 <p>Utah (801) 999-9801</p>
             </div>
@@ -117,10 +128,12 @@
                 <p>Utah </p>
             </div>            -->
         </div>
-        <img src="images/1.png" alt="Vote Sticker">
+        <div class="middle-banner">
+            <img class="vote" src="images/1.png" alt="Vote Sticker">
+            <h2 class="title">Federal Senate</h2>
+            <img class=" voting" src="images/5.png" alt="Person Voting">
+        </div>
         <div id="federalsenate">
-            <h2>Fereal Senate</h2>
-            <img src="images/5.png" alt="Person Voting">
             <div id="mikelee-box">
                 <h4>Mike Lee (R)</h4>
                 <p>Committee and Subcommittee assignments:</p>
@@ -141,8 +154,8 @@
                 <p>Salt Lake, Utah (801) 524-5933</p>
                 <p>Vernal, Utah (435) 503-9335</p>
                 <p>St. George (435) 629-5514</p>
-        </div>
-        <div id="mittromney-box">
+            </div>
+            <div id="mittromney-box">
                 <h4>Mitt Romney (R)</h4>
                 <p>Committee and Subcommittee assignments:</p>
                 <ul>
@@ -160,6 +173,7 @@
                 <p>Spanish Fork, Ut (801) 515-7230</p>
                 <p>St. George, Ut (435) 522-7100</p>
             </div>           
+        </div>
     </div>
     <footer>
         <p>Voters Bible &copy; 2023 - Terral Shrewsbury</p>

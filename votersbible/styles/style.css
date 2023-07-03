@@ -98,6 +98,7 @@ select{
 .title{
   text-align: center;
   font-size: 2em;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #about-us h4{
   font-size: 1.25em;
@@ -273,4 +274,246 @@ footer .social img{
 
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*Page 2 Federal Representitives*/
+
+.dark-mode {
+  background-color: black;
+  color: #FEFEFE;
+}
+.dark-mode a{
+  background-color: black;
+  color: #FEFEFE;
+}
+.dark-mode div{
+  background-color: black;
+}
+#main h4{
+  font-family:'Marcellus', Arial, Tahoma;
+}
+#main p{
+  font-family: 'Varela Round', Arimo, 'Gill Sans', Helvetica ;
+}
+nav{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 75px 75px 75px;
+  
+}
+nav a{
+  color:#101E3F;
+  text-align: center;
+  text-decoration: none;
+}
+#logo_link{
+  grid-column: 1/2 ;
+  grid-row:1/3;
+}
+.home{
+  grid-column: 2/4;
+  grid-row:2/3;
+  font-size: 1.5em;
+  padding-top: 10%;
+  border-bottom: 5px solid #101E3F;
+  box-shadow: 0px 5px 10px #6f7364;
+  font-family:'Marcellus', Arial, Tahoma;
+}
+.home:hover{
+  background-color: #781B32;
+  color:#FEFEFE
+}
+.statereps{
+  grid-column: 6/8;
+  grid-row:2/3;
+  font-size: 1.5em;
+  padding-top: 10%;
+  border-bottom: 5px solid #101E3F;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-family:'Marcellus', Arial, Tahoma;
+}
+.statereps:hover{
+  background-color: #781B32;
+  color:#FEFEFE
+}
+nav div{
+  grid-column: 4/6;
+  grid-row: 1/4;
+  justify-content: center;
+  align-content: center;
+  border: 5px solid #101E3F;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5%;
+  width: 400px;
+  box-shadow: 10px 10px 15px #6f7364;
+  font-family:'Marcellus', Arial, Tahoma;
+}
+.dark{
+  margin: 0 45%;
+  width:auto;
+}
+
+#federalhouse{
+  display: grid;
+  grid-template-columns: 75px 1fr 75px 1fr 75px;
+  background-color: #828DA3;
+  margin: 0 100px 15px;
+  padding: 20px 0;
+  border-radius: 10px;
+  
+}
+.sub-title{
+  text-align: center;
+  font-family:'Marcellus', Arial, Tahoma;
+}
+.dark-mode #blakemoore-box{
+  background-color: black;
+}
+#blakemoore-box{
+  grid-column: 2/3;
+  box-shadow: 10px 10px 15px #6f7364;
+  margin: 10px;
+  background-color: #FEFEFE;
+  
+}
+#blakemoore-box h4{
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+#blakemoore-box p{
+  text-align: center;
+}
+#blakemoore-box a{
+  margin:31%;
+}
+#chrisstewart-box{
+  grid-column: 4/5;
+  box-shadow: 10px 10px 15px #6f7364;
+  margin: 10px;
+  background-color: #FEFEFE;
+}
+.dark-mode #chrisstewart-box{
+  background: black;
+}
+#chrisstewart-box h4{
+  font-size: 1.5em;
+  text-align: center;
+}
+#chrisstewart-box p{
+  text-align: center;
+}
+#chrisstewart-box a{
+  margin:31%;
+}
+#johncurtis-box{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  box-shadow: 10px 10px 15px #6f7364;
+  margin: 10px;
+  background-color: #FEFEFE;
+}
+.dark-mode #johncurtis-box{
+  background: black;
+}
+#johncurtis-box h4{
+  font-size: 1.5em;
+  text-align: center;
+}
+#johncurtis-box a{
+  margin:31%;
+}
+#johncurtis-box p{
+  text-align: center;
+}
+#burgessowens-box{
+  grid-column: 4/5;
+  grid-row:2/3;
+  box-shadow: 10px 10px 15px #6f7364;
+  margin: 10px;
+  background-color: #FEFEFE;
+}
+.dark-mode #burgessowens-box{
+  background: black;
+}
+#burgessowens-box h4{
+  font-size: 1.5em;
+  text-align: center;
+}
+#burgessowens-box p{
+  text-align: center;
+}
+#burgessowens-box a{
+  margin:30%;
+}
+.middle-banner{
+  display: inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 7%;
+}
+.middle-banner h2{
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 155px;
+  background-color: #781B32;
+  color: #FEFEFE;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #6f7364;
+  margin: 20px;
+  
+}
+#federalsenate{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#mikelee-box{
+  width: 40%;
+  border:5px outset black;
+  padding: 10px;
+}
+#mikelee-box h4{
+  text-align: center;
+  font-size: 1.5em;
+}
+#mikelee-box p{
+  text-align: center;
+}
+#mikelee-box a{
+  margin:30%;
+}
+#mittromney-box{
+  width: 40%;
+  border:5px outset black;
+  padding: 10px;
+}
+#mittromney-box h4{
+  text-align: center;
+  font-size: 1.5em;
+}
+#mittromney-box p{
+  text-align: center;
+}
+#mittromney-box a{
+  margin:30%;
+}
+
+/*Page 3 The Utah State Representatives*/
+
+#statehouse{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin:0 10%;
+}
+.middle-banner img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+#statesenate{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin:0 15%;
 }
