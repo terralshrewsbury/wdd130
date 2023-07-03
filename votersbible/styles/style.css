@@ -3,64 +3,257 @@
 --paragraph-font: 'Varela Round', Arimo, 'Gill Sans', Helvetica ; */
 
 
+.logo{
+  width: 150px;
+  justify-self: center;
+  align-self: center;
+  margin-left: 13px;
+  border-radius: 10px;
+  
+}
+#hero-box{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  margin-top: -155px;
+  
+}
+#hero-img{
+  width: 98%;
+  height: 600px;
+  grid-column: 1/8;
+  grid-row: 1/7;
+  justify-self: center;
+  align-self: center;
+  z-index: -1;
+}
+#selection-box{
+  background-color:#828DA3 ;
+  grid-column: 2/4;
+  grid-row:3/6;
+  border: 5px solid #101E3F;
+
+}
+#select-title{
+  text-align: center;
+}
+#selection-box h4{
+  font-size: 1.5em;
+}
+.state-select{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+}
+select{
+  grid-column: 2/5;
+  grid-row: 1/2;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.federal-button-box{
+  grid-column:2/3;
+  grid-row:3/4;
+  padding-left: 50px;
+  
+  
+  
+}
+.federal{
+  color:#FEFEFE;
+  background-color: #781B32;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px #6f7364;  
+}
+.state-button-box{
+  grid-column: 4/5;
+  grid-row:3/4;
+  padding-right: 10px;
+  padding-left: 130px;
+  color:#781B32
+  
+}
+.state{
+  color:#FEFEFE;
+  background-color: #781B32;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px #6f7364;
+  
+}
+
+#about-us{
+  margin: 20px;
+  padding: 5%;
+  color:#101E3F;
+
+}
+.title{
+  text-align: center;
+  font-size: 2em;
+}
+#about-us h4{
+  font-size: 1.25em;
+}
+#about-us img{
+  width: 300px;
+  word-wrap:inherit;
+  margin-left: 36%;
+}
+#voter-eligibility{
+  margin: 20px;
+  padding: 5%;
+  color:black;
+  background-color: #828DA3;
+}
+ul{
+  margin-left: 25%;
+}
+#voter-eligibility p{
+  text-align: center;
+}
+#voter-eligibility a{
+  margin: 40%;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+  background-color:#781B32 ;
+  color:#FEFEFE;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+#identifying-rep{
+  margin: 20px;
+  padding: 5%;
+  color:#101E3F;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#identifying-rep h4{
+  grid-column: 1/6;
+}
+#identifying-rep p{
+  text-align: center;
+  grid-column: 2/5;
+}
+.house{
+ grid-column: 2/3;
+ box-shadow: 5px 5px 10px #6f7364;
+ background-color:#781B32 ;
+ text-align: center;
+}
+.house a{
+  color:#FEFEFE;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.congress{
+  grid-column: 4/5;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+  background-color:#781B32 ;
+}
+.congress a{
+  color:#FEFEFE;
+  text-decoration: none;
+  font-size: 1.5em;
+  
+}
+.congress a:hover, .house a:hover, #voter-eligibility a:hover, .federal:hover, .state:hover {
+  background-color:#FEFEFE;
+  color:black;
+}
+#final-words{
+  margin: 20px;
+  padding: 5%;
+  color:#101E3F;
+  text-align: center;
+  font-size: 1.25em;
+}
+footer{
+  background-color:#781B32;
+  color:#FEFEFE;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+}
+footer a{
+  color:#FEFEFE;
+  text-decoration: none;
+}
+footer a:hover{
+  background-color:#101E3F;
+  color:#FEFEFE;
+  text-decoration: underline;
+}
+footer .social img{
+  padding-top: 15px;
+}
+
+
 /* taken from https://www.w3schools.com/howto/howto_custom_select.asp */
 /*the container must be positioned relative:*/
 .custom-select {
-    position: relative;
-    font-family: Arial;
-  }
-  
-  .custom-select select {
-    display: none; /*hide original SELECT element:*/
-  }
-  
-  .select-selected {
-    background-color: #396E94;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items div,.select-selected {
-    color: #ffffff;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items {
-    position: absolute;
-    background-color: #396E94;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide {
-    display: none;
-  }
-  
-  .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #396E94;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #396E94;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
