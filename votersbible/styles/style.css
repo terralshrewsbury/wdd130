@@ -35,6 +35,7 @@
 }
 #select-title{
   text-align: center;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #selection-box h4{
   font-size: 1.5em;
@@ -66,6 +67,7 @@ select{
   font-size: 1.5em;
   text-decoration: none;
   box-shadow: 5px 5px 10px #6f7364;  
+  font-family:'Marcellus', Arial, Tahoma;
 }
 .state-button-box{
   grid-column: 4/5;
@@ -82,6 +84,7 @@ select{
   font-size: 1.5em;
   text-decoration: none;
   box-shadow: 5px 5px 10px #6f7364;
+  font-family:'Marcellus', Arial, Tahoma;
   
 }
 
@@ -89,6 +92,7 @@ select{
   margin: 20px;
   padding: 5%;
   color:#101E3F;
+  font-family:'Marcellus', Arial, Tahoma;
 
 }
 .title{
@@ -97,6 +101,7 @@ select{
 }
 #about-us h4{
   font-size: 1.25em;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #about-us img{
   width: 300px;
@@ -108,12 +113,15 @@ select{
   padding: 5%;
   color:black;
   background-color: #828DA3;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 ul{
   margin-left: 25%;
+  font-family: 'Varela Round', Arimo, 'Gill Sans', Helvetica ;
 }
 #voter-eligibility p{
   text-align: center;
+  font-family: 'Varela Round', Arimo, 'Gill Sans', Helvetica ;
 }
 #voter-eligibility a{
   margin: 40%;
@@ -123,6 +131,7 @@ ul{
   color:#FEFEFE;
   text-decoration: none;
   font-size: 1.5em;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #identifying-rep{
   margin: 20px;
@@ -130,19 +139,23 @@ ul{
   color:#101E3F;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #identifying-rep h4{
   grid-column: 1/6;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 #identifying-rep p{
   text-align: center;
   grid-column: 2/5;
+  font-family: 'Varela Round', Arimo, 'Gill Sans', Helvetica ;
 }
 .house{
  grid-column: 2/3;
  box-shadow: 5px 5px 10px #6f7364;
  background-color:#781B32 ;
  text-align: center;
+ font-family:'Marcellus', Arial, Tahoma;
 }
 .house a{
   color:#FEFEFE;
@@ -154,6 +167,7 @@ ul{
   text-align: center;
   box-shadow: 5px 5px 10px #6f7364;
   background-color:#781B32 ;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 .congress a{
   color:#FEFEFE;
@@ -171,6 +185,7 @@ ul{
   color:#101E3F;
   text-align: center;
   font-size: 1.25em;
+  font-family: 'Varela Round', Arimo, 'Gill Sans', Helvetica ;
 }
 footer{
   background-color:#781B32;
@@ -181,10 +196,12 @@ footer{
   justify-content: space-around;
   align-items: center;
   font-size: 1.5em;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 footer a{
   color:#FEFEFE;
   text-decoration: none;
+  font-family:'Marcellus', Arial, Tahoma;
 }
 footer a:hover{
   background-color:#101E3F;
