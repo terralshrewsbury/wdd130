@@ -14,7 +14,7 @@
 #hero-box{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-  margin-top: -155px;
+  margin-top: -380px;
   
 }
 #hero-img{
@@ -306,7 +306,7 @@ nav a{
   text-align: center;
   text-decoration: none;
 }
-#logo_link{
+#logo_link-child{
   grid-column: 1/2 ;
   grid-row:1/3;
 }
